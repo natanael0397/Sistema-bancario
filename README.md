@@ -1,5 +1,3 @@
-Sistema bancário desenvolvido em Python
-
 menu = """
 
 [Dep] Depositar
