@@ -1,3 +1,5 @@
+print ("Olá,por favor escolha uma das opções abaixo :")
+
 menu = """
 
 [Dep] Depositar
