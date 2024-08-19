@@ -54,9 +54,17 @@ while True:
         extrato += f"Saque: R$ {valor:.2f}\n"
         numero_saques += 1
         print("A operação desejada deu certo!")
+        """continuar = input("Deseja fazer um novo saque?")
+        if continuar.lower() != "s":
+         saldo -= valor
+         if continuar.lower() !="n":
+            break
+        break
+        continue
+        """
 
     else:
-        print("Operação falhou! Infelizmente o valor informado é inválido.")
+     print("Operação falhou! Infelizmente o valor informado é inválido.")
 
  elif opcao == "e":
     print("####### EXTRATO ########")
